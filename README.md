@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# MERN-Instagram-Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:
+This project is built using MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows a user to add posts. It incorporates real-time features such as instant notifications for likes using toast notifications. Users can also view notification counts and see who liked their posts. Additionally, users have the ability to view the posts that have been liked by clicking on the notifications. 
 
-## Available Scripts
+## Features:
+- Add posts functionality
+- Real-time like feature with toast notifications
+- Notification count for likes
+- Ability to view posts liked by others
 
-In the project directory, you can run:
+## Screenshots
 
-### `npm start`
+### User Registration
+User registers on the Registration page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Alt text](/Screenshots/register.png "Register page")
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Login
+User logs in on the Login page.
 
-### `npm test`
+![Alt text](/Screenshots/login.png "Login page")
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### View All Posts
+User can view everyone's posts on the Home page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Alt text](/Screenshots/myposts.png "Home page")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Add Posts
+User can add new posts on the Add Post page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Alt text](/Screenshots/addposts.png "Add page")
 
-### `npm run eject`
+### Like Posts
+User can like other users' posts, and the post owner receives real-time notifications.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Alt text](/Screenshots/liking.png "Liking page")
+![Alt text](/Screenshots/gettingliked.png "Gettingliked page")
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### View Notifications
+User can view all notifications in the Notification page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Alt text](/Screenshots/allnotifications.png "Allnotification page")
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
